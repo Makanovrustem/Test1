@@ -1,0 +1,171 @@
+.otchet{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+
+        
+
+        aside{
+            text-align: center;
+
+            &:nth-child(1){
+
+                h2{
+                    font-size: 42px;
+                    font-weight: 400;
+                    line-height: 50px;
+                    letter-spacing: 2.5%;
+                    text-transform: uppercase;
+                    color:@clr1 ;
+
+                }
+            }
+
+            &:nth-child(2){
+                .displ_bet;
+                margin-top: 65px;
+
+
+                article{
+                    width: 350px;
+                    height: 160px;
+                    box-sizing: border-box;
+                    border: 1px solid rgb(236, 236, 236);
+                    padding: 15px;
+                    animation-name: otchet;
+                    animation-duration: 6s;
+                    animation-delay: 2s;
+                    animation-iteration-count: infinite;
+    
+                    nav{
+    
+                        display: flex;
+                        
+                        &:nth-child(1){
+                            
+                            
+                            p{
+                                font-size: 18px;
+                                font-weight: 800;
+                                line-height: 22.5px;
+                                color: @clr1;
+                                margin-top: 10px;
+                               
+                            }
+                        }
+    
+                        &:nth-child(2){
+                           
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 40px;
+    
+                            a{
+                                color: rgb(166, 142, 103);
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 22.5px;
+                                text-align: left;
+                                text-decoration-line: underline;
+    
+                                i{
+                                    margin-right: 8px;
+                                }
+    
+                            }
+                            
+    
+                        }
+                    }
+    
+                    &:nth-child(4){
+                        width: 33.08px;
+                        height: 33.08px;
+                        border: 1px solid rgb(182, 182, 182);
+                        border-radius: 30px;
+                        .displ_cen;
+                        transform: rotate(90.00deg);
+                        transition: 0.8s;
+    
+                        &:hover{
+                            background: @clr2;
+                        }
+    
+                        
+                    }
+                }
+
+
+            }
+            
+
+  
+        }
+
+        .dot{
+            width: 110.51px;
+            height: 25.5px;
+            box-sizing: border-box;
+            border: 1px solid rgb(239, 239, 239);
+            border-radius: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: 550px;
+            margin-top: 34px;
+
+            i{
+                transform: scale(0.7);
+                transition: 0.8s;
+
+                &:hover{
+                    background: @clr2;
+                    border-radius: 10px;
+                }
+            }
+            
+        }
+
+        >a{
+            color: rgb(20, 86, 86);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 22.5px;
+            display: flex;
+            justify-content: end;
+            margin-top: -20px;
+            margin-right: 65px;
+
+            span{
+                text-decoration-line: underline;
+            }
+
+            i{
+                margin-left: 15px;
+                transform: rotate(45.00deg);
+                
+            }
+        }
+
+
+    }
+}
+
+@keyframes otchet{
+    0%{
+        transform: translateX(-10%);
+       
+    }
+    50%{
+        transform: translateX(10%);
+        
+    }
+    100%{
+      transform: translateX(-10%);
+     
+    }
+    
+}

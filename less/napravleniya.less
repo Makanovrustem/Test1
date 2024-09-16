@@ -1,0 +1,106 @@
+.napravleniya{
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    .container{
+
+        width: 1200px;
+        margin: 0 auto;
+
+        aside{
+            margin-bottom: 62px;
+            &:nth-child(1){
+                text-transform: uppercase;
+                color: @clr1;
+                font-size: 42px;
+                font-weight: 400;
+                line-height: 50px;
+                letter-spacing: 2.5%;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+             
+                
+               
+            }
+             
+            &:nth-child(2){
+                
+                .displ_bet;
+
+                article{
+                        background: @clr7;
+                        width: 220px;
+                        height: 367px;
+                        text-align: center;
+
+                        animation-name: color_uslugi1;
+                        animation-duration: 16s;
+                        animation-delay: 2s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: ease-out;
+
+                        h2{
+                            
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            color: @clr5;
+                            margin-top: 26px;
+                            text-align: center;
+
+                        }
+
+                        img{
+                            width: 79.74px;
+                            margin-top: 29px;
+                            
+
+                        }
+
+                        p{
+
+                            width: 210px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-align: center;
+                            margin-top: 29px;
+                            color:@clr1;
+                            animation-name: color_uslugi2;
+                            animation-duration: 16s;
+                            animation-delay: 0.5s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: ease-out ;
+
+                        }
+
+                }
+            }  
+
+        }
+    }
+}
+
+@keyframes color_uslugi1{
+    50%{
+        background: black;
+    }
+ 
+    100%{
+        background: @clr7; 
+    }
+}
+
+@keyframes color_uslugi2{
+    50%{
+        color: aqua;
+
+    }
+    100%{
+        color:@clr1;
+    }
+
+}
